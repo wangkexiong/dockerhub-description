@@ -14,10 +14,10 @@ inputs:
       Default: `github.repository`
   create-repository:
     description: Create the Docker Hub repository if it doesn't exist
-    default: 'false'
+    default: 'true'
   create-asprivate:
     description: Created Docker Hub repositories will have private visibility
-    default: 'true'
+    default: 'false'
   short-description:
     description: >
       Docker Hub repository short description
